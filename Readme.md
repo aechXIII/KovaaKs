@@ -22,13 +22,17 @@ Current `Engine.ini` focuses on reducing unnecessary UE4 rendering overhead and 
 - CapFrameX
 
 ### Results
-PSR = pasu small reload
-main = this config
-none = clean Engine.ini
-new = don't mind it
+PSR = pasu small reload  
+
+main = this config  
+none = clean Engine.ini  
+new = don't mind it  
+
 <p align="center">
   <img src="images/benchmark.png" width="900">
 </p>
+
+Your results WILL vary. 
 
 ### Installation
 
