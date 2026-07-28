@@ -22,7 +22,7 @@ Current `Engine.ini` focuses on reducing unnecessary UE4 rendering overhead and 
 - CapFrameX
 
 ### Results
-PSR = pasu small reload  
+PSR = pasu small reload
 
 main = this config  
 none = clean Engine.ini  
@@ -32,7 +32,7 @@ new = don't mind it
   <img src="images/benchmark.png" width="900">
 </p>
 
-Your results WILL vary. 
+Your results WILL vary.
 
 ### Installation
 
@@ -53,6 +53,8 @@ Replace your existing `Engine.ini`.
 It's recommended to make a backup first. If anything goes wrong, just delete the custom file and KovaaK's will generate a clean one on next launch.
 
 **You HAVE TO set the file to **Read only**, you don't want the game to overwrite it.**
+
+**In game, enable One Thread Frame Lag in Video settings, turn off Nvidia Reflex.**
 
 ### Lower latency
 
@@ -78,7 +80,8 @@ As always, test what works best on your own system.
 - Properly tested only on AMD Ryzen CPUs, it caused crashes on Intel systems.
 - Intel compatibility is not the greatest, some settings will cause crashes or instability.
 - Not every CVar has been individually tested. Some are probably redundant or have no measurable effect, but they're left in until I can verify them properly (it will never happen).
-- Occasional crashes can happen when alt-tabbing while your cursor is hovering over an item in the UI. If those crashes are too much for you set `Slate.EnableGlobalInvalidation` to `0`, but you will lose some frames. It also causes some minot text artifacts.
+- Occasional crashes will happen when alt-tabbing while your cursor is hovering over an item in the UI with hover effect (for example tooltip). If those crashes are too much for you set `Slate.EnableGlobalInvalidation` to `0`, but you will lose some frames. It also causes some minor text artifacts.  
+*I've added two cvars that are disabling tooltips and should fix the crashing issue but it needs testing: `Slate.AllowToolTips=0` and `Slate.EnableTooltips=0`.*
 
 ---
 
