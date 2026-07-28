@@ -81,7 +81,8 @@ As always, test what works best on your own system.
 - Intel compatibility is not the greatest, some settings will cause crashes or instability.
 - Not every CVar has been individually tested. Some are probably redundant or have no measurable effect, but they're left in until I can verify them properly (it will never happen).
 - Occasional crashes will happen when alt-tabbing while your cursor is hovering over an item in the UI with hover effect (for example tooltip). If those crashes are too much for you set `Slate.EnableGlobalInvalidation` to `0`, but you will lose some frames. It also causes some minor text artifacts.  
-*I've added two cvars that are disabling tooltips and should fix the crashing issue but it needs testing: `Slate.AllowToolTips=0` and `Slate.EnableTooltips=0`.*
+*I've added two cvars that are disabling tooltips and should fix the crashing issue but it needs testing: `Slate.AllowToolTips=0` and `Slate.EnableTooltips=0`.*  
+- If you want Glow back, set `r.DefaultFeature.Bloom=True` and `r.BloomQuality=5`
 
 ---
 
