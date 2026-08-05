@@ -5,10 +5,10 @@ At the moment the repository only includes an optimized `Engine.ini`, but more c
 ---
 
 ## Engine.ini
+> **Use this at your own risk.**
+> This is not a guide and I am not claiming it is the best config for every PC. It is my personal `Engine.ini`, built around the hardware and scenarios I use. Back up your own file before trying it.  
 
-### Overview
-
-Current `Engine.ini` focuses on reducing unnecessary UE4 rendering overhead and improving frame consistency. I have tested it only on AMD CPU's.
+> Don't blame KovaaKs for crashes if you are using modified `Engine.ini`.
 
 ### Tested on
 
@@ -22,17 +22,16 @@ Current `Engine.ini` focuses on reducing unnecessary UE4 rendering overhead and 
 - CapFrameX
 
 ### Results
-PSR = pasu small reload
+Tested on `pasu small reload` and `Controlsphere`  
 
-main = this config  
-none = clean Engine.ini  
-new = don't mind it  
+public = this config  
+default = stock Engine.ini  
 
 <p align="center">
   <img src="images/benchmark.png" width="900">
 </p>
 
-Your results WILL vary.
+**Your results WILL BE DIFFERENT.**
 
 ### Installation
 
@@ -73,18 +72,20 @@ r.GTSyncType=1
 r.RHI.MaximumFrameLatency=1
 ```
 
+`r.FinishCurrentFrame=1` is most likely not worth it.
+
 As always, test what works best on your own system.
 
-### Notes
-
-- Properly tested only on AMD Ryzen CPUs, it caused crashes on Intel systems.
-- Intel compatibility is not the greatest, some settings will cause crashes or instability.
-- Not every CVar has been individually tested. Some are probably redundant or have no measurable effect, but they're left in until I can verify them properly (it will never happen).
-- Occasional crashes will happen when alt-tabbing while your cursor is hovering over an item in the UI with hover effect (for example tooltip). If those crashes are too much for you set `Slate.EnableGlobalInvalidation` to `0`, but you will lose some frames. It also causes some minor text artifacts.  
-*I've added two cvars that are disabling tooltips and should fix the crashing issue but it needs testing: `Slate.AllowToolTips=0` and `Slate.EnableTooltips=0`.*  
-- If you want Glow back, set `r.DefaultFeature.Bloom=True` and `r.BloomQuality=5`
+### Known Issues
+- #### Target glow is missing
+  Set `r.DefaultFeature.Bloom=1` and `r.BloomQuality=5`
+- #### Crash while alt-tabbing or hovering a tooltip
+  Set `Slate.EnableTooltips=0` and `Slate.AllowToolTips=0`
+- #### No tooltips
+  Remove `Slate.EnableTooltips=0` and `Slate.AllowToolTips=0`. You will have crashed on alt-tabs
+- #### Checkboxes not refreshing/ UI elements not working properly
+  Set `Slate.EnableGlobalInvalidation=0`. This will significantly decrease FPS
 
 ---
-
-## Planned
-- More stuff
+###### *Not every CVar has been individually tested (majority wasn't). Some are probably redundant or have no measurable effect, but they're left in until I can verify them properly (it will never happen).*
+---
