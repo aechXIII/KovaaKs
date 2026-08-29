@@ -41,7 +41,7 @@ Test changes one at a time.
 
 Open Video settings and enable One Thread Frame Lag. This is the starting point for every next benchmark. 
 
-Personally I don't feel any difference when it comes to the input lag, I've been playing with OTFL for a long time, maybe I've just got used to it. 
+Personally, I don't feel any difference when it comes to the input lag. I've been playing with OTFL for a long time, maybe I've just got used to it. 
 
 <p align="center">
   <img src="images/otfl.png" width="900" alt="CapFrameX One Thread Frame Lag benchmark comparison">
@@ -91,12 +91,12 @@ Copy [configs/Engine.ini](configs/Engine.ini) to `%LOCALAPPDATA%\FPSAimTrainer\S
 
 First, open Task Manager, then Performance, then CPU. Check `Logical processors` and leave every CPU enabled except CPU 0 and CPU 1. 
 
-Intel, P/E-core systems, 8 or 32 threads - it all neds its own testing. Disablind 0-1 should be fine for most 8 cores 16 threads AMD cpus. 
+Intel, P/E-core systems, 8 or 32 threads - it all needs its own testing. Disabling 0-1 should be fine for most 8 cores 16 threads AMD CPUs. 
 
 Use one of these methods:
 
 1. Process Lasso: start KovaaKs, right-click `FPSAimTrainer-Win64-Shipping.exe`, select `CPU Affinity` -> `Always` -> `Select`. Untick CPU 0 and CPU 1, then apply.
-2. Process Governor: download the [latest release](https://github.com/SystemXFiles/process-governor/releases/latest), run it as administrator, find `FPSAimTrainer-Win64-Shipping.exe` , right-click it, and choose `Add Process Rule`. Set `Selector By` to `Name`, `Affinity` to the range for your CPU, such as `2-15`, set `Force` to `Y`, then save.
+2. Process Governor: download the [latest release](https://github.com/SystemXFiles/process-governor/releases/latest), run it as administrator, find `FPSAimTrainer-Win64-Shipping.exe`, right-click it, and choose `Add Process Rule`. Set `Selector By` to `Name`, `Affinity` to the range for your CPU, such as `2-15`, set `Force` to `Y`, then save.
 
 <p align="center">
   <img src="images/affinity.png" width="900" alt="CapFrameX CPU affinity benchmark comparison">
@@ -114,7 +114,7 @@ Use one of these methods:
 
 Those are bios options, every motherboard has them in a different place so you have to find them on your own.
 
-If you play Faceit/ Valorant (Leauge of Legens too I think, since the AC update) you have to have both of those settings ON, you won't be able to play without them. 
+If you play Faceit/ Valorant (League of Legends too, I think, since the AC update), you have to have both of those settings ON, you won't be able to play without them. 
 
 <p align="center">
   <img src="images/iommu_svm.png" width="900" alt="CapFrameX SVM and IOMMU benchmark comparison">
@@ -138,7 +138,7 @@ If you play Faceit/ Valorant (Leauge of Legens too I think, since the AC update)
 
 ## 5. Render scale
 
-If you don't mind a slightly softer image (I wouldn't call it blurry, at least when you use normal values) you should try lowering your render scale a bit. It can help quite a bit without degrading the quality that much (if you are on 1440p+, I haven't tested in on lower native resolutions).
+If you don't mind a slightly softer image (I wouldn't call it blurry, at least when you use normal values), you should try lowering your render scale a bit. It can help quite a bit without degrading the quality that much (if you are on 1440p+, I haven't tested in on lower native resolutions).
 
 <p align="center">
   <img src="images/render_scale.png" width="900" alt="CapFrameX render scale benchmark comparison">
@@ -162,4 +162,4 @@ If you don't mind a slightly softer image (I wouldn't call it blurry, at least w
 
 ## Final words
 
-Your hardware, system optimizations and other stuff WILL change the result. Test one tweak at a time and keep only what makes a real difference for you.
+Your hardware, system optimizations, and other stuff WILL change the result. Test one tweak at a time and keep only what makes a real difference for you.
