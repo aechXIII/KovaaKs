@@ -91,7 +91,7 @@ Copy [configs/Engine.ini](configs/Engine.ini) to `%LOCALAPPDATA%\FPSAimTrainer\S
 
 First, open Task Manager, then Performance, then CPU. Check `Logical processors` and leave every CPU enabled except CPU 0 and CPU 1. 
 
-Intel, P/E-core systems, 8 or 32 threads - it all neds its own testing. Disablind 0-2 should be fine for most 8 cores 16 threads AMD cpus. 
+Intel, P/E-core systems, 8 or 32 threads - it all neds its own testing. Disablind 0-1 should be fine for most 8 cores 16 threads AMD cpus. 
 
 Use one of these methods:
 
