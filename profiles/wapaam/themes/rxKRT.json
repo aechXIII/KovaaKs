@@ -1,0 +1,110 @@
+{
+	"themeName": "rxKRT",
+	"wallMaterial": "WHITE WOOD BOARD",
+	"wallRoughness": 1,
+	"wallMetallic": 1,
+	"wallFullBright": 1,
+	"wallTint":
+	{
+		"x": 0.10702310502529144,
+		"y": 0.10461648553609848,
+		"z": 0.11443537473678589
+	},
+	"wallTextureScale": 2,
+	"floorMaterial": "GREY WOOD BOARD",
+	"floorRoughness": 1,
+	"floorMetallic": 1,
+	"floorFullBright": 1,
+	"floorTint":
+	{
+		"x": 0.366252601146698,
+		"y": 0.36130678653717041,
+		"z": 0.35640013217926025
+	},
+	"floorTextureScale": 2.2000000476837158,
+	"ceilingMaterial": "GREY WOOD BOARD",
+	"ceilingRoughness": 1,
+	"ceilingMetallic": 1,
+	"ceilingFullBright": 0.94899815320968628,
+	"ceilingTint":
+	{
+		"x": 0.41788506507873535,
+		"y": 0.41254261136054993,
+		"z": 0.4019777774810791
+	},
+	"ceilingTextureScale": 1,
+	"rampMaterial": "GREY WOOD BOARD",
+	"rampRoughness": 1,
+	"rampMetallic": 1,
+	"rampFullBright": 0.94535517692565918,
+	"rampTint":
+	{
+		"x": 0.41788506507873535,
+		"y": 0.41254261136054993,
+		"z": 0.4019777774810791
+	},
+	"rampTextureScale": 1,
+	"overrideEnemyHeadColor": true,
+	"overrideEnemyBodyColor": true,
+	"setEnemyBodyColorAsAttackColor": false,
+	"enemyColorRoughness": 1,
+	"enemyColorMetallic": 0,
+	"enemyColorFullBright": 0.49741378426551819,
+	"enemyHeadColor":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyHeadColorOnHit":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyHeadColorOnLookAt":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 0
+	},
+	"enemyBodyColor":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyBodyColorOnHit":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyBodyColorOnLookAt":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 0
+	},
+	"changeEnemyColorOnHit": false,
+	"changeEnemyColorOnLookAt": false,
+	"teamGlowUpHead": 0,
+	"teamGlowUpBody": 0,
+	"enemyGlowUpHead": 1,
+	"enemyGlowUpBody": 1,
+	"enemyGlowUpHeadOnHit": 0,
+	"enemyGlowUpBodyOnHit": 0,
+	"enemyGlowUpHeadOnLookAt": 0,
+	"enemyGlowUpBodyOnLookAt": 0,
+	"skyPresetId": 1,
+	"cloudCoverId": 0,
+	"solidSkyColor": false,
+	"sunVisible": false,
+	"skyColor":
+	{
+		"b": 224,
+		"g": 255,
+		"r": 255,
+		"a": 255
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"themeName": "unsavedThemeChanges",
+	"wallMaterial": "CONCRETE POURED",
+	"wallRoughness": 1,
+	"wallMetallic": 0.56826239824295044,
+	"wallFullBright": 0.803505539894104,
+	"wallTint":
+	{
+		"x": 0.50288647413253784,
+		"y": 0.50288647413253784,
+		"z": 0.53327637910842896
+	},
+	"wallTextureScale": 0.29395228624343872,
+	"floorMaterial": "GREY WOOD BOARD",
+	"floorRoughness": 1,
+	"floorMetallic": 1,
+	"floorFullBright": 1,
+	"floorTint":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 0.99110209941864014
+	},
+	"floorTextureScale": 0.39899325370788574,
+	"ceilingMaterial": "GREY WOOD BOARD",
+	"ceilingRoughness": 1,
+	"ceilingMetallic": 1,
+	"ceilingFullBright": 1,
+	"ceilingTint":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 0.99110209941864014
+	},
+	"ceilingTextureScale": 0.40000000596046448,
+	"rampMaterial": "GREY WOOD BOARD",
+	"rampRoughness": 1,
+	"rampMetallic": 1,
+	"rampFullBright": 1,
+	"rampTint":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 0.99110209941864014
+	},
+	"rampTextureScale": 0.40000000596046448,
+	"overrideEnemyHeadColor": true,
+	"overrideEnemyBodyColor": true,
+	"setEnemyBodyColorAsAttackColor": false,
+	"enemyColorRoughness": 0.67220747470855713,
+	"enemyColorMetallic": 0.88364362716674805,
+	"enemyColorFullBright": 1,
+	"enemyHeadColor":
+	{
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"enemyHeadColorOnHit":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyHeadColorOnLookAt":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 0
+	},
+	"enemyBodyColor":
+	{
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"enemyBodyColorOnHit":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyBodyColorOnLookAt":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 0
+	},
+	"changeEnemyColorOnHit": false,
+	"changeEnemyColorOnLookAt": false,
+	"teamGlowUpHead": 1,
+	"teamGlowUpBody": 1,
+	"enemyGlowUpHead": 2,
+	"enemyGlowUpBody": 2,
+	"enemyGlowUpHeadOnHit": 1,
+	"enemyGlowUpBodyOnHit": 1,
+	"enemyGlowUpHeadOnLookAt": 1,
+	"enemyGlowUpBodyOnLookAt": 1,
+	"enemyOutlineWidth": 0.80000001192092896,
+	"enemyOutlineSizeThreshold": 1,
+	"enemyOutlineGlow": 1.2000000476837158,
+	"enemyOutlineColor":
+	{
+		"x": 0.57758098840713501,
+		"y": 0.52099597454071045,
+		"z": 0.7991030216217041
+	},
+	"skyPresetId": 0,
+	"cloudCoverId": 4,
+	"solidSkyColor": true,
+	"sunVisible": false,
+	"skyColor":
+	{
+		"b": 188,
+		"g": 188,
+		"r": 188,
+		"a": 255
+	}
+}

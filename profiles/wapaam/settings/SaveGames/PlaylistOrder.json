@@ -1,0 +1,8 @@
+{
+	"randomType": "Random",
+	"randomOrder": [ 0, 13, 11, 1, 3, 19, 6, 12, 9, 14, 20, 8, 7, 21, 10, 2, 17, 18, 5, 15, 16, 4 ],
+	"randomCurrIndex": 0,
+	"randomStartIndex": 0,
+	"currentScenarioIndex": 0,
+	"playCounts": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+}

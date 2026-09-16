@@ -1,0 +1,110 @@
+{
+	"themeName": "May Tricks (Needs Scene Color and Effects)",
+	"wallMaterial": "WHITE WOOD BOARD",
+	"wallRoughness": 0,
+	"wallMetallic": 1,
+	"wallFullBright": 0.89999997615814209,
+	"wallTint":
+	{
+		"x": 0.038204371929168701,
+		"y": 0.038204371929168701,
+		"z": 0.038204371929168701
+	},
+	"wallTextureScale": 1,
+	"floorMaterial": "WHITE WOOD BOARD",
+	"floorRoughness": 0,
+	"floorMetallic": 1,
+	"floorFullBright": 0.89999997615814209,
+	"floorTint":
+	{
+		"x": 0.038204371929168701,
+		"y": 0.038204371929168701,
+		"z": 0.038204371929168701
+	},
+	"floorTextureScale": 1,
+	"ceilingMaterial": "WHITE WOOD BOARD",
+	"ceilingRoughness": 1,
+	"ceilingMetallic": 1,
+	"ceilingFullBright": 0.89999997615814209,
+	"ceilingTint":
+	{
+		"x": 0.038204371929168701,
+		"y": 0.038204371929168701,
+		"z": 0.038204371929168701
+	},
+	"ceilingTextureScale": 1,
+	"rampMaterial": "WHITE WOOD BOARD",
+	"rampRoughness": 1,
+	"rampMetallic": 1,
+	"rampFullBright": 0.20999999344348907,
+	"rampTint":
+	{
+		"x": 0.038204371929168701,
+		"y": 0.038204371929168701,
+		"z": 0.038204371929168701
+	},
+	"rampTextureScale": 1,
+	"overrideEnemyHeadColor": true,
+	"overrideEnemyBodyColor": true,
+	"setEnemyBodyColorAsAttackColor": false,
+	"enemyColorRoughness": 0,
+	"enemyColorMetallic": 0,
+	"enemyColorFullBright": 0.019999999552965164,
+	"enemyHeadColor":
+	{
+		"x": 0.29499998688697815,
+		"y": 0.11225699633359909,
+		"z": 0.056639999151229858
+	},
+	"enemyHeadColorOnHit":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyHeadColorOnLookAt":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 0
+	},
+	"enemyBodyColor":
+	{
+		"x": 0.46207699179649353,
+		"y": 1,
+		"z": 0.012286487966775894
+	},
+	"enemyBodyColorOnHit":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyBodyColorOnLookAt":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 0
+	},
+	"changeEnemyColorOnHit": false,
+	"changeEnemyColorOnLookAt": false,
+	"teamGlowUpHead": 1,
+	"teamGlowUpBody": 1,
+	"enemyGlowUpHead": 1000,
+	"enemyGlowUpBody": 1000,
+	"enemyGlowUpHeadOnHit": 1,
+	"enemyGlowUpBodyOnHit": 1,
+	"enemyGlowUpHeadOnLookAt": 1,
+	"enemyGlowUpBodyOnLookAt": 1,
+	"skyPresetId": 8,
+	"cloudCoverId": 1,
+	"solidSkyColor": false,
+	"sunVisible": true,
+	"skyColor":
+	{
+		"b": 163,
+		"g": 0,
+		"r": 115,
+		"a": 255
+	}
+}

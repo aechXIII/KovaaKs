@@ -1,0 +1,60 @@
+{
+	"themeName": "Nedaanlands",
+	"wallMaterial": "CONCRETE TILES",
+	"wallRoughness": 1,
+	"wallMetallic": 0.52999997138977051,
+	"wallFullBright": 0.57999998331069946,
+	"wallTint":
+	{
+		"x": 0.32314321398735046,
+		"y": 1,
+		"z": 1
+	},
+	"floorMaterial": "CONCRETE TILES",
+	"floorRoughness": 1,
+	"floorMetallic": 0.0099999997764825821,
+	"floorFullBright": 0,
+	"floorTint":
+	{
+		"x": 1,
+		"y": 0.85238301753997803,
+		"z": 0.47900000214576721
+	},
+	"overrideEnemyHeadColor": true,
+	"overrideEnemyBodyColor": true,
+	"setEnemyBodyColorAsAttackColor": false,
+	"enemyColorRoughness": 0.67000001668930054,
+	"enemyColorMetallic": 1,
+	"enemyColorFullBright": 0.73000001907348633,
+	"enemyHeadColor":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyBodyColor":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"skyPresetId": 10,
+	"cloudCoverId": 1,
+	"solidSkyColor": false,
+	"sunVisible": false,
+	"skyColor":
+	{
+		"b": 188,
+		"g": 188,
+		"r": 188,
+		"a": 255
+	},
+	"teamGlowUpHead": 1,
+	"teamGlowUpBody": 1,
+	"enemyGlowUpHead": 1,
+	"enemyGlowUpBody": 1,
+	"enemyGlowUpHeadOnHit": 1,
+	"enemyGlowUpBodyOnHit": 1,
+	"enemyGlowUpHeadOnLookAt": 1,
+	"enemyGlowUpBodyOnLookAt": 1
+}

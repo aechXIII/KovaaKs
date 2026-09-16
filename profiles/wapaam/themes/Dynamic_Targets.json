@@ -1,0 +1,52 @@
+{
+	"themeName": "Dynamic Targets",
+	"wallMaterial": "BRICK GREY",
+	"wallRoughness": 1,
+	"wallMetallic": 0.5,
+	"wallFullBright": 1,
+	"wallTint":
+	{
+		"x": 0.12743768095970154,
+		"y": 0.12743768095970154,
+		"z": 0.12743768095970154
+	},
+	"floorMaterial": "WOOD FLOOR WALNUT",
+	"floorRoughness": 1,
+	"floorMetallic": 1,
+	"floorFullBright": 1,
+	"floorTint":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"overrideEnemyHeadColor": true,
+	"overrideEnemyBodyColor": true,
+	"setEnemyBodyColorAsAttackColor": false,
+	"enemyColorRoughness": 0,
+	"enemyColorMetallic": 1,
+	"enemyColorFullBright": 1,
+	"enemyHeadColor":
+	{
+		"x": 0.069666996598243713,
+		"y": 0.37999999523162842,
+		"z": 0
+	},
+	"enemyBodyColor":
+	{
+		"x": 0.069666996598243713,
+		"y": 0.37999999523162842,
+		"z": 0
+	},
+	"skyPresetId": 1,
+	"cloudCoverId": 2,
+	"solidSkyColor": false,
+	"sunVisible": false,
+	"skyColor":
+	{
+		"b": 255,
+		"g": 255,
+		"r": 255,
+		"a": 255
+	}
+}

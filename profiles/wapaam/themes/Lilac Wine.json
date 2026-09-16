@@ -1,0 +1,60 @@
+{
+	"themeName": "Lilac Wine",
+	"wallMaterial": "WOOD PLANK CLEAN",
+	"wallRoughness": 0.56999999284744263,
+	"wallMetallic": 0.88999998569488525,
+	"wallFullBright": 0.79000002145767212,
+	"wallTint":
+	{
+		"x": 0.71569347381591797,
+		"y": 0.65140563249588013,
+		"z": 0.96468621492385864
+	},
+	"floorMaterial": "WOOD PLANK CLEAN",
+	"floorRoughness": 1,
+	"floorMetallic": 1,
+	"floorFullBright": 0.30000001192092896,
+	"floorTint":
+	{
+		"x": 0.71569347381591797,
+		"y": 0.65140563249588013,
+		"z": 0.96468621492385864
+	},
+	"overrideEnemyHeadColor": true,
+	"overrideEnemyBodyColor": true,
+	"setEnemyBodyColorAsAttackColor": false,
+	"enemyColorRoughness": 0.36000001430511475,
+	"enemyColorMetallic": 0.12999999523162842,
+	"enemyColorFullBright": 0.5899999737739563,
+	"enemyHeadColor":
+	{
+		"x": 0.57758045196533203,
+		"y": 0.52099555730819702,
+		"z": 0.79910272359848022
+	},
+	"enemyBodyColor":
+	{
+		"x": 0.57758045196533203,
+		"y": 0.52099555730819702,
+		"z": 0.79910272359848022
+	},
+	"skyPresetId": 1,
+	"cloudCoverId": 0,
+	"solidSkyColor": false,
+	"sunVisible": true,
+	"skyColor":
+	{
+		"b": 231,
+		"g": 191,
+		"r": 200,
+		"a": 255
+	},
+	"teamGlowUpHead": 1,
+	"teamGlowUpBody": 1,
+	"enemyGlowUpHead": 1,
+	"enemyGlowUpBody": 1,
+	"enemyGlowUpHeadOnHit": 1,
+	"enemyGlowUpBodyOnHit": 1,
+	"enemyGlowUpHeadOnLookAt": 1,
+	"enemyGlowUpBodyOnLookAt": 1
+}

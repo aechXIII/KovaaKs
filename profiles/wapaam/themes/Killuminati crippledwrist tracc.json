@@ -1,0 +1,110 @@
+{
+	"themeName": "Killuminati crippledwrist Tracc",
+	"wallMaterial": "WHITE WOOD BOARD",
+	"wallRoughness": 0.69999998807907104,
+	"wallMetallic": 0.69999998807907104,
+	"wallFullBright": 0.80000001192092896,
+	"wallTint":
+	{
+		"x": 0.21223099529743195,
+		"y": 0.21223099529743195,
+		"z": 0.21223099529743195
+	},
+	"wallTextureScale": 1,
+	"floorMaterial": "WHITE WOOD BOARD",
+	"floorRoughness": 0.5,
+	"floorMetallic": 1,
+	"floorFullBright": 1,
+	"floorTint":
+	{
+		"x": 0.27889427542686462,
+		"y": 0.27889427542686462,
+		"z": 0.27889427542686462
+	},
+	"floorTextureScale": 1,
+	"ceilingMaterial": "WHITE WOOD BOARD",
+	"ceilingRoughness": 0.5,
+	"ceilingMetallic": 1,
+	"ceilingFullBright": 1,
+	"ceilingTint":
+	{
+		"x": 0.27889427542686462,
+		"y": 0.27889427542686462,
+		"z": 0.27889427542686462
+	},
+	"ceilingTextureScale": 1,
+	"rampMaterial": "PURE COLOR",
+	"rampRoughness": 0.69999998807907104,
+	"rampMetallic": 0.69999998807907104,
+	"rampFullBright": 0.80000001192092896,
+	"rampTint":
+	{
+		"x": 0.24620132148265839,
+		"y": 0.24620132148265839,
+		"z": 0.24620132148265839
+	},
+	"rampTextureScale": 1,
+	"overrideEnemyHeadColor": true,
+	"overrideEnemyBodyColor": true,
+	"setEnemyBodyColorAsAttackColor": false,
+	"enemyColorRoughness": 0.25,
+	"enemyColorMetallic": 0.80000001192092896,
+	"enemyColorFullBright": 0.25,
+	"enemyHeadColor":
+	{
+		"x": 0,
+		"y": 0.13563333451747894,
+		"z": 1
+	},
+	"enemyHeadColorOnHit":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyHeadColorOnLookAt":
+	{
+		"x": 0.90104198455810547,
+		"y": 0.012354999780654907,
+		"z": 0.012354999780654907
+	},
+	"enemyBodyColor":
+	{
+		"x": 0,
+		"y": 0.13563333451747894,
+		"z": 1
+	},
+	"enemyBodyColorOnHit":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyBodyColorOnLookAt":
+	{
+		"x": 1,
+		"y": 0.72699999809265137,
+		"z": 0
+	},
+	"changeEnemyColorOnHit": false,
+	"changeEnemyColorOnLookAt": false,
+	"teamGlowUpHead": 1,
+	"teamGlowUpBody": 1,
+	"enemyGlowUpHead": 150,
+	"enemyGlowUpBody": 150,
+	"enemyGlowUpHeadOnHit": 1,
+	"enemyGlowUpBodyOnHit": 1,
+	"enemyGlowUpHeadOnLookAt": 122,
+	"enemyGlowUpBodyOnLookAt": 122,
+	"skyPresetId": 7,
+	"cloudCoverId": 0,
+	"solidSkyColor": false,
+	"sunVisible": false,
+	"skyColor":
+	{
+		"b": 255,
+		"g": 255,
+		"r": 255,
+		"a": 255
+	}
+}

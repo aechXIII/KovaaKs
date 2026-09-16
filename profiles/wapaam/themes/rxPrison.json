@@ -1,0 +1,110 @@
+{
+	"themeName": "rxPrison",
+	"wallMaterial": "CONCRETE TILES",
+	"wallRoughness": 1,
+	"wallMetallic": 0,
+	"wallFullBright": 0.91074681282043457,
+	"wallTint":
+	{
+		"x": 0.46778380870819092,
+		"y": 0.45641103386878967,
+		"z": 0.45641103386878967
+	},
+	"wallTextureScale": 1,
+	"floorMaterial": "BRICK CLAY BEVELED",
+	"floorRoughness": 1,
+	"floorMetallic": 1,
+	"floorFullBright": 0.79781419038772583,
+	"floorTint":
+	{
+		"x": 0.55201137065887451,
+		"y": 0.57758045196533203,
+		"z": 0.59061884880065918
+	},
+	"floorTextureScale": 1,
+	"ceilingMaterial": "CONCRETE TILES",
+	"ceilingRoughness": 1,
+	"ceilingMetallic": 0,
+	"ceilingFullBright": 0.91621130704879761,
+	"ceilingTint":
+	{
+		"x": 0.59061884880065918,
+		"y": 0.56471151113510132,
+		"z": 0.57758045196533203
+	},
+	"ceilingTextureScale": 1,
+	"rampMaterial": "CONCRETE TILES",
+	"rampRoughness": 1,
+	"rampMetallic": 0.79755669832229614,
+	"rampFullBright": 1,
+	"rampTint":
+	{
+		"x": 0.44520118832588196,
+		"y": 0.44520118832588196,
+		"z": 0.44520118832588196
+	},
+	"rampTextureScale": 1,
+	"overrideEnemyHeadColor": true,
+	"overrideEnemyBodyColor": true,
+	"setEnemyBodyColorAsAttackColor": false,
+	"enemyColorRoughness": 1,
+	"enemyColorMetallic": 0,
+	"enemyColorFullBright": 0.43715846538543701,
+	"enemyHeadColor":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyHeadColorOnHit":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyHeadColorOnLookAt":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 0
+	},
+	"enemyBodyColor":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyBodyColorOnHit":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyBodyColorOnLookAt":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 0
+	},
+	"changeEnemyColorOnHit": false,
+	"changeEnemyColorOnLookAt": false,
+	"teamGlowUpHead": 0,
+	"teamGlowUpBody": 0,
+	"enemyGlowUpHead": 0,
+	"enemyGlowUpBody": 0,
+	"enemyGlowUpHeadOnHit": 0,
+	"enemyGlowUpBodyOnHit": 0,
+	"enemyGlowUpHeadOnLookAt": 0,
+	"enemyGlowUpBodyOnLookAt": 0,
+	"skyPresetId": 6,
+	"cloudCoverId": 0,
+	"solidSkyColor": false,
+	"sunVisible": false,
+	"skyColor":
+	{
+		"b": 125,
+		"g": 128,
+		"r": 133,
+		"a": 255
+	}
+}

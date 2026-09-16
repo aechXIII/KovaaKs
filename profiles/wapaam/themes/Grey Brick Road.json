@@ -1,0 +1,60 @@
+{
+	"themeName": "Grey Brick Road",
+	"wallMaterial": "BRICK GREY",
+	"wallRoughness": 1,
+	"wallMetallic": 1,
+	"wallFullBright": 0.80000001192092896,
+	"wallTint":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"floorMaterial": "BRICK GREY",
+	"floorRoughness": 1,
+	"floorMetallic": 1,
+	"floorFullBright": 0.34000000357627869,
+	"floorTint":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"overrideEnemyHeadColor": true,
+	"overrideEnemyBodyColor": true,
+	"setEnemyBodyColorAsAttackColor": false,
+	"enemyColorRoughness": 0.44999998807907104,
+	"enemyColorMetallic": 1,
+	"enemyColorFullBright": 0.70999997854232788,
+	"enemyHeadColor":
+	{
+		"x": 1,
+		"y": 0.72699999809265137,
+		"z": 0
+	},
+	"enemyBodyColor":
+	{
+		"x": 1,
+		"y": 0.72699999809265137,
+		"z": 0
+	},
+	"skyPresetId": 2,
+	"cloudCoverId": 3,
+	"solidSkyColor": false,
+	"sunVisible": true,
+	"skyColor":
+	{
+		"b": 255,
+		"g": 255,
+		"r": 255,
+		"a": 255
+	},
+	"teamGlowUpHead": 1,
+	"teamGlowUpBody": 1,
+	"enemyGlowUpHead": 1,
+	"enemyGlowUpBody": 1,
+	"enemyGlowUpHeadOnHit": 1,
+	"enemyGlowUpBodyOnHit": 1,
+	"enemyGlowUpHeadOnLookAt": 1,
+	"enemyGlowUpBodyOnLookAt": 1
+}

@@ -1,0 +1,103 @@
+{
+	"playlistName": "1T",
+	"playlistId": 306678,
+	"authorSteamId": "76561199069403663",
+	"authorName": "wapaam+",
+	"scenarioList": [
+		{
+			"scenario_name": "VT AntiCentering Valorant (20% Smaller)",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "eth Consecutive Tracking Far",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "eth Valorant Layered Control v3 40s",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "Amare GarFMicroTS Reflex",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "1W1T VALORANT 30s",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "skyClick Angelic 1Target",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "e1se MicroTrack",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "AmareRawControl",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "CloverRawControl short faster",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "Reflex Poke-Micro++ 20% smaller",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "tamAngleSmoothness ES & Slow Horizontal 40s",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "eth Valorant Micro Reactive",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "1w1ts Pasu Track Far Speed",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "Wavy Micro Reflex Hard",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "Reflex Micro++ Flick Horizontalish Hard 30s",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "Amare Dynamic TAF Micro v2",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "beanStatnamic",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "Cartoon Tamspeed Reflex 2-Click Goated v2 30s",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "VT SiniClick Reflex 2-Click",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "BlinkClick Valorant Hard Precision",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "Beanclick Micro 60% smaller 135% faster 1 bot",
+			"play_Count": 1
+		},
+		{
+			"scenario_name": "Hewchy's Valorant MicroAdjustment++",
+			"play_Count": 1
+		}
+	],
+	"description": "single target scenarios",
+	"hasOfflineScenarios": false,
+	"hasEdited": false,
+	"shareCode": "KovaaKsPeakingPickedLamp",
+	"version": 31,
+	"updated": 1751633706,
+	"isPrivate": false
+}

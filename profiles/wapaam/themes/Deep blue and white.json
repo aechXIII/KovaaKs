@@ -1,0 +1,60 @@
+{
+	"themeName": "Deep blue and white",
+	"wallMaterial": "DRYWALL",
+	"wallRoughness": 1,
+	"wallMetallic": 1,
+	"wallFullBright": 1,
+	"wallTint":
+	{
+		"x": 0,
+		"y": 0.03433980792760849,
+		"z": 0.046665087342262268
+	},
+	"floorMaterial": "CONCRETE TILES",
+	"floorRoughness": 1,
+	"floorMetallic": 1,
+	"floorFullBright": 0.23999999463558197,
+	"floorTint":
+	{
+		"x": 0,
+		"y": 0.03433980792760849,
+		"z": 0.046665087342262268
+	},
+	"overrideEnemyHeadColor": true,
+	"overrideEnemyBodyColor": true,
+	"setEnemyBodyColorAsAttackColor": false,
+	"enemyColorRoughness": 0.74000000953674316,
+	"enemyColorMetallic": 0.87999999523162842,
+	"enemyColorFullBright": 0.98000001907348633,
+	"enemyHeadColor":
+	{
+		"x": 0.90104198455810547,
+		"y": 0.012354999780654907,
+		"z": 0.012354999780654907
+	},
+	"enemyBodyColor":
+	{
+		"x": 0.66538727283477783,
+		"y": 0.66538727283477783,
+		"z": 0.66538727283477783
+	},
+	"skyPresetId": 1,
+	"cloudCoverId": 0,
+	"solidSkyColor": false,
+	"sunVisible": true,
+	"skyColor":
+	{
+		"b": 234,
+		"g": 217,
+		"r": 153,
+		"a": 255
+	},
+	"teamGlowUpHead": 1,
+	"teamGlowUpBody": 1,
+	"enemyGlowUpHead": 1,
+	"enemyGlowUpBody": 1,
+	"enemyGlowUpHeadOnHit": 1,
+	"enemyGlowUpBodyOnHit": 1,
+	"enemyGlowUpHeadOnLookAt": 1,
+	"enemyGlowUpBodyOnLookAt": 1
+}

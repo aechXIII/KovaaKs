@@ -1,0 +1,110 @@
+{
+	"themeName": "rxBingBong",
+	"wallMaterial": "DRYWALL",
+	"wallRoughness": 0.099815160036087036,
+	"wallMetallic": 0.23734728991985321,
+	"wallFullBright": 0.80327868461608887,
+	"wallTint":
+	{
+		"x": 0.1778884083032608,
+		"y": 0.18447498977184296,
+		"z": 0.22322796285152435
+	},
+	"wallTextureScale": 1,
+	"floorMaterial": "MARBLE POLISHED",
+	"floorRoughness": 1,
+	"floorMetallic": 1,
+	"floorFullBright": 1,
+	"floorTint":
+	{
+		"x": 0.15592646598815918,
+		"y": 0.16513219475746155,
+		"z": 0.19120168685913086
+	},
+	"floorTextureScale": 1,
+	"ceilingMaterial": "DRYWALL",
+	"ceilingRoughness": 0,
+	"ceilingMetallic": 0,
+	"ceilingFullBright": 1,
+	"ceilingTint":
+	{
+		"x": 0.14995978772640228,
+		"y": 0.15592646598815918,
+		"z": 0.18116424977779388
+	},
+	"ceilingTextureScale": 1,
+	"rampMaterial": "DRYWALL",
+	"rampRoughness": 1,
+	"rampMetallic": 0,
+	"rampFullBright": 0.80000001192092896,
+	"rampTint":
+	{
+		"x": 0.2015562504529953,
+		"y": 0.2015562504529953,
+		"z": 0.21586050093173981
+	},
+	"rampTextureScale": 1,
+	"overrideEnemyHeadColor": true,
+	"overrideEnemyBodyColor": true,
+	"setEnemyBodyColorAsAttackColor": false,
+	"enemyColorRoughness": 1,
+	"enemyColorMetallic": 0,
+	"enemyColorFullBright": 0.50258618593215942,
+	"enemyHeadColor":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyHeadColorOnHit":
+	{
+		"x": 2.7122879404480405e+30,
+		"y": 7.062544260197078e-43,
+		"z": 0
+	},
+	"enemyHeadColorOnLookAt":
+	{
+		"x": 0,
+		"y": 1920,
+		"z": 1080
+	},
+	"enemyBodyColor":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1
+	},
+	"enemyBodyColorOnHit":
+	{
+		"x": 1,
+		"y": 0,
+		"z": 0
+	},
+	"enemyBodyColorOnLookAt":
+	{
+		"x": -3.397059060716856e-07,
+		"y": 4.5903735094352358e-41,
+		"z": 0
+	},
+	"changeEnemyColorOnHit": false,
+	"changeEnemyColorOnLookAt": false,
+	"teamGlowUpHead": 0,
+	"teamGlowUpBody": 0,
+	"enemyGlowUpHead": 1,
+	"enemyGlowUpBody": 1,
+	"enemyGlowUpHeadOnHit": 0,
+	"enemyGlowUpBodyOnHit": 0,
+	"enemyGlowUpHeadOnLookAt": 0,
+	"enemyGlowUpBodyOnLookAt": 0,
+	"skyPresetId": 0,
+	"cloudCoverId": 0,
+	"solidSkyColor": false,
+	"sunVisible": false,
+	"skyColor":
+	{
+		"b": 114,
+		"g": 135,
+		"r": 138,
+		"a": 255
+	}
+}

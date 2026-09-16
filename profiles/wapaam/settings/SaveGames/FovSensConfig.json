@@ -1,0 +1,510 @@
+[
+	{
+		"FOV":
+		{
+			"FILMS": "4ML3",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "40",
+			"TypicalMinCM": "15",
+			"InchesFormula": "360 / (Inches * 0.022 * DPI)",
+			"IncrementFormula": "Sens * 0.022"
+		},
+		"ScaleName": "Quake/Source"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "40",
+			"TypicalMinCM": "15",
+			"InchesFormula": "360 / (Inches * 0.022 * DPI)",
+			"IncrementFormula": "Sens * 0.022"
+		},
+		"ScaleName": "Quake Champions"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16MF9",
+			"SliderMax": 103,
+			"SliderMin": 80
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "45",
+			"TypicalMinCM": "20",
+			"InchesFormula": "360 / (Inches * 0.0066 * DPI)",
+			"IncrementFormula": "Sens * 0.0066"
+		},
+		"ScaleName": "Overwatch"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16MS9",
+			"SliderMax": 103,
+			"SliderMin": 103
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "71",
+			"TypicalMinCM": "36",
+			"InchesFormula": "360 / (Inches * 0.06996 * DPI)",
+			"IncrementFormula": "Sens * 0.06996"
+		},
+		"ScaleName": "Valorant"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "4ML3",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "48",
+			"TypicalMinCM": "20",
+			"InchesFormula": "360 / (Inches * 0.022 * DPI)",
+			"IncrementFormula": "Sens * 0.022"
+		},
+		"ScaleName": "Apex Legends"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 80,
+			"SliderMin": 80
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "41",
+			"TypicalMinCM": "22",
+			"InchesFormula": "360 / (Inches * 0.005555 * DPI)",
+			"IncrementFormula": "Sens * 0.005555"
+		},
+		"ScaleName": "Fortnite"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16MI9",
+			"SliderMax": 80,
+			"SliderMin": 80
+		},
+		"ScaleName": "Fortnite Legacy"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "40",
+			"TypicalMinCM": "20",
+			"InchesFormula": "360 / (Inches * 0.104156 * FOV * 0.001 * DPI)",
+			"IncrementFormula": "Sens * 0.104156 * FOV * 0.001"
+		},
+		"ScaleName": "Splitgate"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "4ML3",
+			"SliderMax": 90,
+			"SliderMin": 90
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "65",
+			"TypicalMinCM": "33",
+			"InchesFormula": "360 / (Inches * 0.022 * DPI)",
+			"IncrementFormula": "Sens * 0.022"
+		},
+		"ScaleName": "Counter-Strike"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16MF9",
+			"SliderMax": 103,
+			"SliderMin": 80
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "48",
+			"TypicalMinCM": "20",
+			"InchesFormula": "360 / (Inches * 0.0066 * DPI)",
+			"IncrementFormula": "Sens * 0.0066"
+		},
+		"ScaleName": "Call of Duty"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "vML",
+			"SliderMax": 115,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.018 / _pi * DPI)",
+			"IncrementFormula": "Sens * 0.018 / _pi"
+		},
+		"ScaleName": "Rainbow 6: Siege"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "vML",
+			"SliderMax": 115,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "40",
+			"TypicalMinCM": "15",
+			"InchesFormula": "360 / (Inches / 60 * DPI)",
+			"IncrementFormula": "Sens / 60"
+		},
+		"ScaleName": "Diabotical"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16MF9",
+			"SliderMax": 103,
+			"SliderMin": 80
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "45",
+			"TypicalMinCM": "20",
+			"InchesFormula": "360 / (Inches * 0.0066 * DPI)",
+			"IncrementFormula": "Sens * 0.0066"
+		},
+		"ScaleName": "Destiny 2"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"InchesFormula": "(360 - 0.011459162 * DPI * Inches) / (DPI * Inches * 0.0034377486)",
+			"IncrementFormula": "(Sens * 0.0034377486) + 0.011459162"
+		},
+		"ScaleName": "Battlefield V/1/Hardline"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "45",
+			"TypicalMinCM": "20",
+			"InchesFormula": "360 / (Inches * 0.091176 * FOV * 0.001 * DPI)",
+			"IncrementFormula": "Sens * 0.091176 * FOV * 0.001"
+		},
+		"ScaleName": "Paladins"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.022222 * DPI)",
+			"IncrementFormula": "Sens * 0.022222"
+		},
+		"ScaleName": "Halo"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.1125 * DPI)",
+			"IncrementFormula": "Sens * 0.1125"
+		},
+		"ScaleName": "Rust"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "4ML3",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"TypicalMaxCM": "40",
+			"TypicalMinCM": "15",
+			"InchesFormula": "360 / (Inches * 0.018 / _pi * DPI)",
+			"IncrementFormula": "Sens * 0.018 / _pi"
+		},
+		"ScaleName": "Reflex Arena"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "hML",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.017501 * DPI)",
+			"IncrementFormula": "Sens * 0.017501"
+		},
+		"ScaleName": "Batallion"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "hML",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.07 * DPI)",
+			"IncrementFormula": "Sens * 0.07"
+		},
+		"ScaleName": "UE4"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"IncrementFormula": "0.00005555 * 10 ^ (Sens / 50) * FOV"
+		},
+		"ScaleName": "PUBG"
+	},
+	{
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.0429718162181364 * DPI)",
+			"IncrementFormula": "Sens * 0.0429718162181364"
+		},
+		"ScaleName": "Hunt: Showdown"
+	},
+	{
+		"Sens":
+		{
+			"TypicalMaxCM": "45",
+			"TypicalMinCM": "20",
+			"InchesFormula": "360 / (Inches * 0.0003888500001 * DPI)",
+			"IncrementFormula": "Sens * 0.0003888500001"
+		},
+		"ScaleName": "Gundam Evolution"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "vML",
+			"SliderMax": 100,
+			"SliderMin": 45
+		},
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.001 * DPI)",
+			"IncrementFormula": "Sens * 0.001"
+		},
+		"ScaleName": "The FINALS"
+	},
+	{
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 1.01061008 * DPI)",
+			"IncrementFormula": "Sens * 1.01061008"
+		},
+		"ScaleName": "Roblox"
+	},
+	{
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.375 * DPI)",
+			"IncrementFormula": "Sens * 0.375"
+		},
+		"ScaleName": "Roblox Arsenal"
+	},
+	{
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.0175 * DPI)",
+			"IncrementFormula": "Sens * 0.0175"
+		},
+		"ScaleName": "Marvel Rivals"
+	},
+	{
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.044 * DPI)",
+			"IncrementFormula": "Sens * 0.044"
+		},
+		"ScaleName": "Deadlock"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "4ML3",
+			"SliderMax": 90,
+			"SliderMin": 90
+		},
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.022 * DPI)",
+			"IncrementFormula": "Sens * 0.022"
+		},
+		"ScaleName": "CSGO"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 125,
+			"SliderMin": 70
+		},
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.05555 * DPI)",
+			"IncrementFormula": "Sens * 0.05555"
+		},
+		"ScaleName": "Fragpunk"
+	},
+	{
+		"Sens":
+		{
+			"InchesFormula": "(360 - 0.032809* DPI * Inches) / (DPI * Inches * 0.005446 )",
+			"IncrementFormula": "Sens * 0.005446 + 0.032809"
+		},
+		"ScaleName": "GTA 5"
+	},
+	{
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.01388194363 * DPI)",
+			"IncrementFormula": "Sens * 0.01388194363"
+		},
+		"ScaleName": "Strinova"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"Sens":
+		{
+			"InchesFormula": "360 / (Inches * 0.03 * DPI)",
+			"IncrementFormula": "Sens * 0.03"
+		},
+		"ScaleName": "Delta Force"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 120,
+			"SliderMin": 85
+		},
+		"Sens":
+		{
+			"InchesFormula": "(360 - 0.002314981532* DPI * Inches) / (DPI * Inches * 0.0017362342283)",
+			"IncrementFormula": "(Sens * 0.0017362342283) + 0.002314981532"
+		},
+		"ScaleName": "Battlefield 6"
+	},
+	{
+		"Sens":
+		{
+			"InchesFormula": "(Inches * DPI)",
+			"IncrementFormula": "360 / Sens"
+		},
+		"ScaleName": "counts/360"
+	},
+	{
+		"Sens":
+		{
+			"IncrementFormula": "2.54 * 360 / (Sens * DPI)"
+		},
+		"ScaleName": "cm/360"
+	},
+	{
+		"Sens":
+		{
+			"IncrementFormula": "360 / (Sens * DPI)"
+		},
+		"ScaleName": "in/360"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "16ML9",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"ScaleName": "Horizontal (16:9)"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "4ML3",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"ScaleName": "Horizontal (4:3)"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "vML",
+			"SliderMax": 115,
+			"SliderMin": 60
+		},
+		"ScaleName": "Vertical (1:1)"
+	},
+	{
+		"FOV":
+		{
+			"FILMS": "hML",
+			"SliderMax": 140,
+			"SliderMin": 60
+		},
+		"ScaleName": "Clamped Horizontal"
+	}
+]
