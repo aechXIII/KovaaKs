@@ -6,6 +6,12 @@
 > 
 > Don't blame KovaaKs for crashes if you are using modified `Engine.ini`.
 
+
+> [!CAUTION]
+> If you experience any issues after applying the `Engine.ini` please read the [Known Issues](engine-ini.md#known-issues) section, or simply delete the `Engine.ini` file to bring it back to the default state on next Kovaaks launch.
+
+
+
 ## Installation
 
 1. Back up your current `Engine.ini`.
