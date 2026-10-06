@@ -65,6 +65,10 @@ Personally, I don't feel any difference when it comes to the input lag. I've bee
 
 ## 2. Engine.ini
 
+> [!CAUTION]
+> If you experience any issues after applying the `Engine.ini` please read the [Known Issues](engine-ini.md#known-issues) section, or simply delete the `Engine.ini` file to bring it back to the default state on next Kovaaks launch.
+
+
 Copy [configs/Engine.ini](configs/Engine.ini) to `%LOCALAPPDATA%\FPSAimTrainer\Saved\Config\WindowsNoEditor`, replace the existing file, then set it to read-only. [The Engine.ini "guide"](engine-ini.md) has the backup step and common fixes.
 
 <p align="center">
