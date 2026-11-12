@@ -17,23 +17,44 @@
 1. Back up your current `Engine.ini`.
 2. Copy [configs/Engine.ini](configs/Engine.ini) to `%LOCALAPPDATA%\FPSAimTrainer\Saved\Config\WindowsNoEditor` and replace the existing file.
 3. Right click `Engine.ini` -> `Properties` -> tick `Read-only`.
+4. Close KovaaKs, then copy [configs/aechEngineFix_P.pak](configs/aechEngineFix_P.pak) to `C:\Program Files (x86)\Steam\steamapps\common\FPSAimTrainer\FPSAimTrainer\Content\Paks`.
+
+> [!CAUTION]
+> Don't skip step 4. My config breaks some UI elements, without the pak the leaderboard can show an old scenario title, median and scores.
+> 
+> The pak is made for KovaaKs 3.9.13. It replaces a few UI widgets, so if an update changes them, the pak can break them or hide new stuff. If something looks off after an update let me know.
 
 Benchmarks result are in [README](README.md)
 
+## Fix pak
+
+`Slate.EnableGlobalInvalidation=1` and `Slate.EnableTooltips=0` from my config break some UI elements. [aechEngineFix_P.pak](configs/aechEngineFix_P.pak) fixes them, so you don't have to turn global invalidation off and lose FPS. It doesn't change how scores are submitted.
+
+- Leaderboard updates the scenario title when the board clears or gets a new median. Median, list and score rows redraw too
+- `Don't submit score to Leaderboard` checkbox updates right away when you click it
+- Crosshair picker shows the file name of the hovered crosshair under the grid, even with tooltips disabled
+
+To remove it, delete the file.
+
 ## Known Issues
+
+- #### Checkboxes not refreshing/ UI elements not working properly
+  
+  Install the [fix pak](#fix-pak) (Installation step 4). If something it doesn't cover is still broken let me know, or set `Slate.EnableGlobalInvalidation=0`. This will significantly decrease FPS
 
 - #### Target glow is missing
   
   Set `r.DefaultFeature.Bloom=1` and `r.BloomQuality=5`
+
 - #### Crash while alt-tabbing or hovering a tooltip
   
   Set `Slate.EnableTooltips=0` and `Slate.AllowToolTips=0`
+
 - #### No tooltips
   
   Remove `Slate.EnableTooltips=0` and `Slate.AllowToolTips=0`. You will have crashed on alt-tabs
-- #### Checkboxes not refreshing/ UI elements not working properly
   
-  Set `Slate.EnableGlobalInvalidation=0`. This will significantly decrease FPS
+  If you only miss crosshair names, use the [fix pak](#fix-pak)
 
 ---
 
