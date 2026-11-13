@@ -17,7 +17,7 @@
 1. Back up your current `Engine.ini`.
 2. Copy [configs/Engine.ini](configs/Engine.ini) to `%LOCALAPPDATA%\FPSAimTrainer\Saved\Config\WindowsNoEditor` and replace the existing file.
 3. Right click `Engine.ini` -> `Properties` -> tick `Read-only`.
-4. Close KovaaKs, then copy [configs/aechEngineFix_P.pak](configs/aechEngineFix_P.pak) to `C:\Program Files (x86)\Steam\steamapps\common\FPSAimTrainer\FPSAimTrainer\Content\Paks`.
+4. Close KovaaKs, then copy [configs/aechEngineFix_P.pak](https://github.com/aechXIII/KovaaKs/raw/refs/heads/main/configs/aechEngineFix_P.pak) to `C:\Program Files (x86)\Steam\steamapps\common\FPSAimTrainer\FPSAimTrainer\Content\Paks`.
 
 > [!CAUTION]
 > Don't skip step 4. My config breaks some UI elements, without the pak the leaderboard can show an old scenario title, median and scores.
@@ -28,7 +28,7 @@ Benchmarks result are in [README](README.md)
 
 ## Fix pak
 
-`Slate.EnableGlobalInvalidation=1` and `Slate.EnableTooltips=0` from my config break some UI elements. [aechEngineFix_P.pak](configs/aechEngineFix_P.pak) fixes them, so you don't have to turn global invalidation off and lose FPS. It doesn't change how scores are submitted.
+`Slate.EnableGlobalInvalidation=1` and `Slate.EnableTooltips=0` from my config break some UI elements. [aechEngineFix_P.pak](https://github.com/aechXIII/KovaaKs/raw/refs/heads/main/configs/aechEngineFix_P.pak) fixes them, so you don't have to turn global invalidation off and lose FPS. It doesn't change how scores are submitted.
 
 - Leaderboard updates the scenario title when the board clears or gets a new median. Median, list and score rows redraw too
 - `Don't submit score to Leaderboard` checkbox updates right away when you click it
