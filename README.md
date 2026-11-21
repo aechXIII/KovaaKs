@@ -1,4 +1,10 @@
-# KovaaK's performance tweaks
+# KovaaK's resources
+
+- [Performance tweaks](#performance-tweaks)
+  - [Engine.ini guide](engine-ini.md)
+- [Full color bots](#full-color-bots)
+
+# Performance tweaks
 
 Everything below was tested on my AMD system. A different AMD CPU, SMT setup, or any Intel CPU WILL behave differently, so treat these results as a reference and test the tweaks yourself.
 
@@ -168,3 +174,31 @@ If you don't mind a slightly softer image (I wouldn't call it blurry, at least w
 ## Final words
 
 Your hardware, system optimizations, and other stuff WILL change the result. Test one tweak at a time and keep only what makes a real difference for you.
+
+---
+
+# Full color bots
+
+Removes the black parts (chest plate, joints) from the Endo bot model, so the whole bot is a single color.
+
+| Stock | With the mod |
+| :---: | :---: |
+| <img src="images/full-color-stock.png" width="420" alt="Stock Endo bot with a black chest plate and joints"> | <img src="images/full-color-mod.png" width="420" alt="Endo bot in one solid color with the mod"> |
+
+Works with any target color.
+
+<table>
+  <tr>
+    <td><img src="images/full-color-orange.png" width="420" alt="Endo bot in solid orange with the mod"></td>
+    <td><img src="images/full-color-green.png" width="420" alt="Endo bot in solid green with the mod"></td>
+  </tr>
+</table>
+
+## Installation
+
+1. Close KovaaKs.
+2. Copy [configs/ZZ_AechEndo_P.pak](https://github.com/aechXIII/KovaaKs/raw/refs/heads/main/configs/ZZ_AechEndo_P.pak) to `C:\Program Files (x86)\Steam\steamapps\common\FPSAimTrainer\FPSAimTrainer\Content\Paks`.
+
+It only changes the Endo model, bots using other models look the same as before.
+
+If the bot looks off after a game update, let me know. To remove it, delete the file.
