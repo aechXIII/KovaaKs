@@ -1,4 +1,10 @@
-# KovaaK's performance tweaks
+# KovaaK's resources
+
+- [Performance tweaks](#performance-tweaks)
+  - [Engine.ini guide](engine-ini.md)
+- [Full color bots](#full-color-bots)
+
+# Performance tweaks
 
 Everything below was tested on my AMD system. A different AMD CPU, SMT setup, or any Intel CPU WILL behave differently, so treat these results as a reference and test the tweaks yourself.
 
@@ -168,3 +174,15 @@ If you don't mind a slightly softer image (I wouldn't call it blurry, at least w
 ## Final words
 
 Your hardware, system optimizations, and other stuff WILL change the result. Test one tweak at a time and keep only what makes a real difference for you.
+
+---
+
+# Full color bots
+
+KovaaK's added full color bots to the public beta, so I removed my paks. If you still have them, close KovaaKs and delete the ZZ_Aech paks from your Paks folder.
+
+To get the beta: Steam > right-click KovaaK's > Properties > Game Versions & Betas > beta
+
+<p align="center">
+  <img src="images/full-color-bots-beta.jpg" width="900" alt="Meso, Endo, Ecto and Stylized Ecto in ice blue, stock materials on the public build above and the built-in enemy color on the public beta below">
+</p>
